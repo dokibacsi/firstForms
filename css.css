@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
+
+input[type=submit]{
+    font-family: "Explora";
+    background-color: darkred;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+
+input[type=submit]:active{
+    background-color:darkblue;
+    color:white;
+    transition: 1s;
+}
